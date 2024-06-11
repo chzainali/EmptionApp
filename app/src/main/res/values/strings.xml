@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">EmotionApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone\n</string>
+    <string name="edit_profile">Edit Profile\n</string>
+    <string name="logout">Logout\n</string>
+    <string name="mood">Mood</string>
+    <string name="see_all">See All</string>
+    <string name="reminder">Reminder</string>
+    <string name="change_language">Change Language</string>
+    <string name="others">Others</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+
+    <string name="terms_and_conditions_text">By using this app, you agree to the following terms and conditions:\n\n1. Use of Service: You agree to use the services provided by this app solely for lawful purposes and in accordance with these terms.\n\n2. User Account: You may be required to create an account to access certain features of the app. You are responsible for maintaining the confidentiality of your account credentials.\n\n3. Intellectual Property: All content and materials available in this app, including but not limited to text, graphics, logos, images, and software, are the property of the app owner and protected by applicable copyright and intellectual property laws.\n\n4. Prohibited Activities: You agree not to engage in any prohibited activities, including but not limited to unauthorized access to the app, interference with the app\'s functionality, or distribution of harmful content.\n\n5. Limitation of Liability: The app owner shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in any way connected with the use of this app.\n\n6. Modifications to Terms: The app owner reserves the right to modify or revise these terms and conditions at any time without prior notice. Your continued use of the app after any changes indicates your acceptance of the modified terms.\n\n7. Governing Law: These terms and conditions shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law provisions.\n\nIf you have any questions or concerns regarding these terms and conditions, please contact us at [Your Contact Information].\n\nLast Updated: [Date]\n\nThank you for using our app.</string>
+    <string name="privacy_policy_text">We at Emotion App prioritize the privacy and security of our users. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you use our Calendar Events app.
+
+1. Information Collection: We may collect personal information such as your name, email address, and calendar events to provide you with the services offered by our app.\n\n
+
+2. Information Usage: Your personal information is used solely to enhance your experience with our app, including managing and displaying your calendar events effectively.\n\n
+
+3. Data Security: We implement industry-standard security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction.\n\n
+
+4. Data Sharing: We do not sell, trade, or otherwise transfer your personal information to outside parties unless required by law or for providing our services to you.\n\n
+
+5. Third-party Services: Our app may integrate with third-party services (e.g., calendar providers) whose privacy policies may differ from ours. We encourage you to review the privacy policies of these third parties.\n\n
+
+6. Analytics: We may use analytics tools to collect and analyze non-personal information about the usage of our app to improve its functionality and user experience.\n\n
+
+7. Cookies: Our app does not use cookies or similar tracking technologies.\n\n
+
+8. User Control: You have the right to access. You can manage your preferences and permissions within the app settings.\n\n
+
+9. Updates to Privacy Policy: We reserve the right to update our Privacy Policy from time to time.\n\n
+
+10. Consent: By using our Calendar Events app, you consent to the terms outlined in this Privacy Policy.\n\n
+
+If you have any questions or concerns regarding our Privacy Policy or the handling of your personal information.\n\n
+
+Last Updated: 15 Feb 2024\n\n
+
+Thank you for trusting us with your privacy.</string>
+
+</resources>

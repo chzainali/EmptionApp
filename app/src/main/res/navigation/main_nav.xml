@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.emotionapp.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_eventDetailsFragment"
+            app:destination="@id/eventDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.emotionapp.fragment.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" >
+        <action
+            android:id="@+id/action_categoryFragment_to_categoriesDetailsFragment"
+            app:destination="@id/categoriesDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.emotionapp.fragment.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/boardFragment"
+        android:name="com.example.emotionapp.fragment.BoardFragment"
+        android:label="fragment_board"
+        tools:layout="@layout/fragment_board" >
+        <action
+            android:id="@+id/action_boardFragment_to_eventDetailsFragment"
+            app:destination="@id/eventDetailsFragment" />
+        <action
+            android:id="@+id/action_boardFragment_to_eventDetailsFragment2"
+            app:destination="@id/eventDetailsFragment" />
+        <action
+            android:id="@+id/action_boardFragment_to_allEventsFragment"
+            app:destination="@id/allEventsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoriesDetailsFragment"
+        android:name="com.example.emotionapp.fragment.CategoriesDetailsFragment"
+        android:label="fragment_categories_details"
+        tools:layout="@layout/fragment_categories_details" />
+    <fragment
+        android:id="@+id/eventDetailsFragment"
+        android:name="com.example.emotionapp.fragment.EventDetailsFragment"
+        android:label="EventDetailsFragment" />
+    <fragment
+        android:id="@+id/allEventsFragment"
+        android:name="com.example.emotionapp.fragment.AllEventsFragment"
+        android:label="fragment_all_events"
+        tools:layout="@layout/fragment_all_events" >
+        <action
+            android:id="@+id/action_allEventsFragment_to_eventDetailsFragment"
+            app:destination="@id/eventDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainSettingsFragment"
+        android:name="com.example.emotionapp.fragment.MainSettingsFragment"
+        android:label="fragment_main_settings"
+        tools:layout="@layout/fragment_main_settings" >
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_policyFragment"
+            app:destination="@id/policyFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/policyFragment"
+        android:name="com.example.emotionapp.fragment.PolicyFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_policy" >
+
+    </fragment>
+</navigation>

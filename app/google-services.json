@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "386288243090",
+    "firebase_url": "https://emotionapp-822c1-default-rtdb.firebaseio.com",
+    "project_id": "emotionapp-822c1",
+    "storage_bucket": "emotionapp-822c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386288243090:android:d960bdaeea0b038bcdb14b",
+        "android_client_info": {
+          "package_name": "com.example.emotionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB26dX0IlWsUab540XC40MlT4W-E5U2XZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386288243090:android:10b1da78e8cc327dcdb14b",
+        "android_client_info": {
+          "package_name": "com.example.emptionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB26dX0IlWsUab540XC40MlT4W-E5U2XZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
